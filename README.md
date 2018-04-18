@@ -11,13 +11,15 @@ key point is that, Jersey can work with Jackson Json, a lightweight, fast librar
 
 object > "Rest Adaptor(Jersey) > object
 
-3. The overall architecture adopt concept of MVC, although it is not strict follow the structure as lacking of using of web application technology. The key is for easier replacement of the components if change of technology to access via web application.
+3. The overall architecture adopt concept of MVC, although it is not strictly follow the structure due to the constraint of standalone App. The key is for easier replacement of the components if change of technology to access via web application.
 
 4. The data transfer object between RESTful server and client is a composist design pattern and the design for this app is also based on the same data structure. It consist of 1 single object of response and the response info and result is composist to it.
 
 Response > Result > Records is a template for fata structure of different RESTful API.
 
 4. Singleton Object on Rest Adaptor to support Object Pooling (In future).
+
+5. All infos are displayed at-one-glance once user entered the period data query from MAS. A better sholutions should be a web portal or report display. Bur due to time constraints,  console application design is used. 
 
 
 How to build:
