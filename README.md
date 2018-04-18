@@ -28,9 +28,9 @@ How to build:
 3. Make sure your MVN is configured properly.
 4. Open the command prompt. To build, under the project root folder ".", type "MVN package".
 5. The builld process will copy the followig key component:
-   - checkrates.jar to "."
-   - CheckRates.cmd to "."
-   - Other dependency jar files to ".\lib" 
+   - checkrates.jar to ".\target"
+   - CheckRates.cmd to ".\target"
+   - Other dependency jar files to ".\target\lib" 
 
 
 How to run:
